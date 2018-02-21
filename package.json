@@ -1,0 +1,31 @@
+{
+  "name": "mean-stack-app",
+  "version": "1.0.0",
+  "description": "MEAN-Stack App from Scratch",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NishiGaba/MEAN-Stack-App.git"
+  },
+  "author": "Nishi Gaba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NishiGaba/MEAN-Stack-App/issues"
+  },
+  "homepage": "https://github.com/NishiGaba/MEAN-Stack-App#readme",
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "cors": "*",
+    "express": "4.16.2",
+    "jsonwebtoken": "*",
+    "mongoose": "*",
+    "nodemon": "^1.15.1",
+    "passport": "*",
+    "passport-jwt": "*"
+  }
+}
